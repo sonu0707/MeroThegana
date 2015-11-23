@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Merothegana</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="category">
+        <item>All</item>
+        <item>Animals and Pets</item>
+        <item>Banks and Co-operatives</item>
+        <item>Blood Bank</item>
+        <item>Car Decor</item>
+        <item>Cars and Bikes Showrooms</item>
+        <item>Fashion Collections</item>
+        <item>Government Organizations</item>
+        <item>Home Decor</item>
+        <item>Hospitals and Clinics</item>
+        <item>Hotel and Restaurants</item>
+        <item>Jewelry and Ornaments Shops</item>
+        <item>Manpower and Consultancies</item>
+        <item>Money Transfer</item>
+        <item>Movies and Cinemas</item>
+        <item>Park and Tourist Spot</item>
+        <item>Parlour and Cosmetics</item>
+        <item>People </item>
+        <item>School and Wages</item>
+        <item>Tattos and Peercings</item>
+        <item>Temple, Church and Masjid</item>
+        <item>Tours and Travel Agencies</item>
+    </string-array>
+    <string-array name="municipality">
+        <item>All</item>
+        <item>Amaragadhi</item>
+        <item>Baglung </item>
+        <item>Banepa </item>
+        <item>Bhadrapur </item>
+        <item>Bhaktapur </item>
+        <item>Bharatpur </item>
+        <item>Bhim </item>
+        <item>Bhimeshwar </item>
+        <item>Bidur </item>
+        <item>Biratnagar </item>
+        <item>Birendranagar</item>
+        <item>Birgunj </item>
+        <item>Butwal </item>
+        <item>Byas </item>
+        <item>Damak</item>
+        <item>Dasharathchand </item>
+        <item>Dhangadi</item>
+        <item>Dhankuta</item>
+        <item>Dharan</item>
+        <item>Dhulikhel</item>
+        <item>Dipayal</item>
+        <item>Gaur</item>
+        <item>Ghorahi</item>
+        <item>Gorkha</item>
+        <item>Gulariya</item>
+        <item>Hetauda</item>
+        <item>Ilam</item>
+        <item>Inaruwa</item>
+        <item>Itahari</item>
+        <item>Jaleswar</item>
+        <item>Janakpur</item>
+        <item>Kalaiya</item>
+        <item>Kamalamai</item>
+        <item>Kapilvastu</item>
+        <item>Kathmandu</item>
+        <item>Khanbari</item>
+        <item>Kirtipur</item>
+        <item>Lahan</item>
+        <item>Lalitpur</item>
+        <item>Lekhnath</item>
+        <item>Madhyapur</item>
+        <item>Malangwa</item>
+        <item>Mechinagar</item>
+        <item>Narayan</item>
+        <item>Nepalgunj</item>
+        <item>Panauti</item>
+        <item>Pokhara</item>
+        <item>Putalibazar</item>
+        <item>Rajbiraj</item>
+        <item>Ramgram</item>
+        <item>Ratnanagar</item>
+        <item>Siddharthanagar</item>
+        <item>Siraha</item>
+        <item>Tansen</item>
+        <item>Tikapur</item>
+        <item>Triyuga</item>
+        <item>Tulsipur</item>
+        <item>Waling</item>
+    </string-array>
+    <string-array name="district">
+        <item>All</item>
+        <item>Achham</item>
+        <item>Arghakhanchi</item>
+        <item>Baglung</item>
+        <item>Baitadi</item>
+        <item>Bajhang</item>
+        <item>Bajura</item>
+        <item>Banke</item>
+        <item>Bara</item>
+        <item>Bardiya</item>
+        <item>Bhaktapur</item>
+        <item>Bhojpur</item>
+        <item>Chitwan</item>
+        <item>Dadeldhura</item>
+        <item>Dailekh</item>
+        <item>Dang</item>
+        <item>Darchula</item>
+        <item>Dhading</item>
+        <item>Dhankuta</item>
+        <item>Dhanusa</item>
+        <item>Dholkha</item>
+        <item>Dolpa</item>
+        <item>Doti</item>
+        <item>Gorkha</item>
+        <item>Gulmi</item>
+        <item>Humla</item>
+        <item>Ilam</item>
+        <item>Jajarkot</item>
+        <item>Jhapa</item>
+        <item>Jumla</item>
+        <item>Kailali</item>
+        <item>Kalikot</item>
+        <item>Kanchanpur</item>
+        <item>Kapilvastu</item>
+        <item>Kaski</item>
+        <item>Kathmandu</item>
+        <item>Kavrepalanchok</item>
+        <item>Khotang</item>
+        <item>Lalitpur</item>
+        <item>Lamjung</item>
+        <item>Mahottari</item>
+        <item>Makwanpur</item>
+        <item>Manang</item>
+        <item>Morang</item>
+        <item>Mugu</item>
+        <item>Mustang</item>
+        <item>Myagdi</item>
+        <item>Nawalparasi</item>
+        <item>Nuwakot</item>
+        <item>Okhaldhunga</item>
+        <item>Palpa</item>
+        <item>Panchthar</item>
+        <item>Parbat</item>
+        <item>Parsa</item>
+        <item>Pyuthan</item>
+        <item>Ramechhap</item>
+        <item>Rasuwa</item>
+        <item>Rautahat</item>
+        <item>Rolpa</item>
+        <item>Rukum</item>
+        <item>Rupandehi</item>
+        <item>Salyan</item>
+        <item>Sankhuwasabha</item>
+        <item>Saptari</item>
+        <item>Sarlahi</item>
+        <item>Sindhuli</item>
+        <item>Sindhupalchok</item>
+        <item>Siraha</item>
+        <item>Solukhumbu</item>
+        <item>Sunsari</item>
+        <item>Surkhet</item>
+        <item>Syangja</item>
+        <item>Tanahu</item>
+        <item>Taplejung</item>
+        <item>Terhathum</item>
+        <item>Udayapur</item>
+    </string-array>
+    <string name="title_activity_sub">MatchingResults</string>
+    <string name="title_activity_your_thegana">YourThegana</string>
+    <string name="title_activity_matching_name">MatchingName</string>
+    <string name="title_activity_your_address">YourAddress</string>
+
+
+</resources>

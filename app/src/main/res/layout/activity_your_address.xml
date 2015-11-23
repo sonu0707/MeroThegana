@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_main_background"
+
+    tools:context="com.devashish.www.merothegana.YourThegana">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name:"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/app_bar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Aaryan Sharma"
+        android:id="@+id/textView25"
+        android:layout_alignTop="@+id/textView24"
+        android:layout_toRightOf="@+id/textView24"
+        android:layout_toEndOf="@+id/textView24"
+        android:textColor="#512da8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Address:"
+        android:id="@+id/textView26"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignLeft="@+id/textView24"
+        android:layout_alignStart="@+id/textView24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BuddhaChowk,Bhairahawa,SNP-9,Rupandehi,Nepal"
+        android:id="@+id/textView27"
+        android:textColor="#512da8"
+        android:layout_alignTop="@+id/textView26"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView26"
+        android:layout_toEndOf="@+id/textView26" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Telephone:"
+        android:id="@+id/textView28"
+        android:layout_below="@+id/textView27"
+        android:layout_alignLeft="@+id/textView26"
+        android:layout_alignStart="@+id/textView26"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:text="071******"
+        android:layout_alignBottom="@+id/textView28"
+        android:layout_toRightOf="@+id/textView28"
+        android:layout_toEndOf="@+id/textView28" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mobile"
+        android:id="@+id/textView29"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView28"
+        android:layout_alignLeft="@+id/textView28"
+        android:layout_alignStart="@+id/textView28" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:text="98044***97"
+        android:layout_alignBottom="@+id/textView29"
+        android:layout_toRightOf="@+id/textView29"
+        android:layout_toEndOf="@+id/textView29" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/locationmap1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LocationMap:"
+        android:id="@+id/textView30"
+        android:layout_above="@+id/imageView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Email:"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:text="abc@makemyselfie.com"
+        android:layout_alignBottom="@+id/textView31"
+        android:layout_toRightOf="@+id/textView24"
+        android:layout_toEndOf="@+id/textView24" />
+
+
+</RelativeLayout>

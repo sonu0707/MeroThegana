@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/activity_main_background"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar"
+        android:layout_centerInParent="true"
+        android:background="#404527a0"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Category"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#311b92"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:popupBackground="@drawable/activity_main_background"
+            android:spinnerMode="dropdown"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="District"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#311b92"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:popupBackground="@drawable/activity_main_background"
+            android:spinnerMode="dropdown"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Municipality"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#311b92"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:popupBackground="@drawable/activity_main_background"
+            android:spinnerMode="dropdown"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+
+    </LinearLayout>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="286dp"
+        android:layout_height="70dp"
+
+        android:hint="Name/Firm(Find Address..)"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_toLeftOf="@+id/imageButton"
+        android:layout_toStartOf="@+id/imageButton"
+        android:completionHintView="@drawable/activity_main_background" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/autoCompleteTextView"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:layout_alignRight="@+id/linearLayout"
+        android:background="#3366BB"
+        android:src="@drawable/imagebutton"
+        android:onClick="searchButtonFunction" />
+
+
+</RelativeLayout>
